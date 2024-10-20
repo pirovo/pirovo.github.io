@@ -1,0 +1,23 @@
+/* Estilos para el formulario de contacto */
+#contact-form {
+    margin-bottom: 2em;
+}
+
+#contact-form .form-footer {
+    margin-top: 2em;
+}
+
+#contact-form .actions {
+    margin-bottom: 0;
+}
+
+#contact-form input[type="submit"] {
+    margin-top: 1em;
+}
+
+/* Ajuste adicional para mejorar el espaciado en móviles */
+@media screen and (max-width: 736px) {
+    #contact-form .form-footer {
+        margin-top: 1.5em;
+    }
+}
